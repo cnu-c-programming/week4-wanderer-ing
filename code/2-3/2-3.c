@@ -3,7 +3,7 @@
 
 int main(){
     char a[64] = "Hello";
-    char b[64] = "World";
+    char b[64] = "world";
     char c[128];
 
     int len = strlen(a);
