@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 void inc(int* x){
     if(x==NULL)

@@ -29,7 +29,7 @@ int main(){
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("sum: %d\n", sum(arr, n));
-    printf("avg: %d\n", average(arr, n));
+    printf("avg: %.2f\n", average(arr, n));
     printf("max: %d\n", max(arr, n));
     return 0;
 }

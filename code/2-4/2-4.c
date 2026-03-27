@@ -9,11 +9,10 @@ int main(){
         char ch = chars[i];
         printf("%c - alpha:%d digit:%d upper:%c lower:%c\n",
             ch,
-            isalpha(ch);
-            isdigit(ch);
-            toupper(ch);
-            tolower(ch);
-            )
+            isalpha(ch),
+            isdigit(ch),
+            toupper(ch),
+            tolower(ch));
     }
 
     return 0;

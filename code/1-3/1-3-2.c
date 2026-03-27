@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "util.h"
 
-void logger_global(char* messsage){
+void logger_global(char* message){
     static int counter = 0;
     printf("log %2d: %s\n", counter++, message);
 }

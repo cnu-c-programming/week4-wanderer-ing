@@ -17,7 +17,7 @@ int main(){
     printf("c: %s\n",c);
 
     printf("strcmp(%s,%s) = %d\n", a, a, strcmp(a,a));
-    printf("strcmp(%s,%s) = %d\n", a, a, strcmp(a,b));
+    printf("strcmp(%s,%s) = %d\n", a, b, strcmp(a,b));
 
     return 0;
 }
